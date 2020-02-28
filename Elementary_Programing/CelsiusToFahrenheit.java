@@ -16,7 +16,7 @@ public class CelsiusToFahrenheit {
         double fahrenheit;
         System.out.println("Please enter Temp in Celsius: ");
         celsius = input.nextDouble();
-        fahrenheit = (9/5)* celsius + 32;
+        fahrenheit = (9.0/5.0)* celsius + 32;
 
         System.out.println("Temp in fahrenheit is: "+ fahrenheit);
     }
