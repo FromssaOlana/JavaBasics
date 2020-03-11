@@ -30,7 +30,7 @@ public class QuadraticEquations {
             if (discriminant < 0.0) {
                 System.out.println("Has No real root");
             } else if (discriminant == 0.0) {
-                r1 = -b / 2 * a;
+                r1 = (-b )/ 2 * a;
                 System.out.println("Has one root: " + r1);
             } else{
                 r1 = (-b + Math.sqrt(discriminant)) / 2 * a;
